@@ -1,0 +1,54 @@
+[global_config]
+  title_inactive_bg_color = "#121212"
+  title_inactive_fg_color = "#d7d7d7"
+  title_transmit_bg_color = "#121212"
+  title_transmit_fg_color = "#d7d7d7"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      command = ""
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#303030"
+    background_image = None
+    cursor_color = "#d7d7d7"
+    font = Roboto Mono for Powerline 10
+    foreground_color = "#d7d7d7"
+    palette = "#303030:#ff5f5f:#afd787:#d7d7af:#87d7ff:#d7afd7:#87d7af:#d7d7d7:#303030:#ff5f5f:#afd787:#d7d7af:#87d7ff:#d7afd7:#87d7af:#d7d7d7"
+    use_system_font = False
+  [[cobalt]]
+    background_color = "#132738"
+    background_image = None
+    cursor_color = "#f0cc09"
+    font = Meslo LG M for Powerline 9
+    foreground_color = "#ffffff"
+    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#f40e17:#3bd01d:#edc809:#5555ff:#ff55ff:#6ae3fa:#ffffff"
+    use_system_font = False
+  [[dracula]]
+    background_color = "#1e1f29"
+    background_darkness = 0.9
+    background_image = None
+    copy_on_selection = True
+    cursor_blink = False
+    cursor_color = "#bbbbbb"
+    font = Meslo LG M for Powerline 9
+    foreground_color = "#f8f8f2"
+    palette = "#000000:#ff5555:#1a8415:#f1fa8c:#bd93f9:#ff79c6:#8be9fd:#bbbbbb:#555555:#ff5555:#38d838:#f1fa8c:#bd93f9:#ff79c6:#8be9fd:#ffffff"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    update_records = False
+    use_system_font = False
+  [[terminator_default]]
+    background_color = "#282a36"
+    background_image = None
+    copy_on_selection = True
+    foreground_color = "#f8f8f2"
+    palette = "#44475a:#ff5555:#50fa7b:#ffb86c:#3465a4:#ff79c6:#f1fa8c:#44475a:#44475a:#ff5555:#50fa7b:#ffb86c:#729fcf:#ad7fa8:#f1fa8c:#44475a"
