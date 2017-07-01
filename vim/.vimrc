@@ -191,6 +191,15 @@ let g:pymode_options_max_line_length = 100
 " hack to use ipdb instead of pdb
 map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
+
+" Terminal settings for split-term
+"let g:split_term_vertical = 1
+nnoremap <Leader>t :10Term<CR>
+nnoremap <Leader>v :VTerm<CR>
+set splitbelow
+set splitright
+
+
 " pydocstring
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 nnoremap <C-S-d> :Pydocstring<CR>
