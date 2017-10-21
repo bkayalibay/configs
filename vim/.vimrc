@@ -9,8 +9,8 @@ set laststatus=2
 let base16colorspace=256
 
 " some neovim configuration
-let g:python_host_prog = '/home/valor/.virtualenvs/neovim2/bin/python'
-let g:python3_host_prog= '/home/valor/.virtualenvs/neovim3/bin/python'
+let g:python_host_prog = '/home/bkayalibay/anaconda2/bin/python'
+let g:python3_host_prog= '/home/bkayalibay/anaconda2/envs/lavastore/bin/python'
 
 " normal backspace
 set backspace=2
